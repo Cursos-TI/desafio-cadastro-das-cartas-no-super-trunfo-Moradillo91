@@ -7,16 +7,44 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+    printf("Desafio Super Trunfo - Países \n");
+
+    char nome[50];
+    char codigo[10];
+    double populacao;
+    double pib;
+    double area;
+    int turismo;
+
+
+    printf("Digite o Nome da cidade: \n");
+    scanf("%s", &nome);
+    //
+
+    printf("Digite o Código da Cidade: \n");
+    scanf("%s", &codigo);
+
+    printf("Digite o tamanho da Populaçāo: \n");
+    scanf("%e", &populacao);
+
+    printf("Digite o PIB da cidade: \n");
+    scanf("%e", &pib);
+
+    printf("Digite a Área cidade: \n");
+    scanf("%e", &area);
+
+    printf("Digite quantos Pontos Turísticos tem a cidade: \n");
+    scanf("%d", &turismo);
+
+printf("Nome da cidade: - %s \n", nome);
+printf("Código da Cidade: - %s \n", codigo);
+printf("Populaçāo: - %e \n", populacao);
+printf("PIB: - %e \n", pib);
+printf("Área da cidade: - %e \n", area);
+printf("Pontos Turísticos: - %d \n", turismo);
+
+printf("Carta cadastrada com sucesso! \n");
 
     return 0;
 }
